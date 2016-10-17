@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:orientation="horizontal" >
+ 
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true" >
+ 
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp" 
+            android:contentDescription="@string/none"
+            android:layout_gravity="left" />
+ 
+    </LinearLayout>
+ 
+    <!-- Title Of Payment-->
+    <TextView
+        android:id="@+id/pay_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_marginLeft="22dp"
+        android:textColor="@color/listFirstColor"
+        android:textSize="16sp"/>
+ 
+    <!-- Comment -->
+    <TextView
+        android:id="@+id/pay_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pay_name"
+        android:textColor="@color/listSecondColor"
+        android:textSize="14sp"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/thumbnail" />
+ 
+    <!-- Sum -->
+    <TextView
+        android:id="@+id/pay_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/pay_name"
+        android:gravity="right"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/listFirstColor"
+        android:textSize="16sp" />
+
+    <!-- Date of payment -->
+    <TextView
+        android:id="@+id/pay_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:layout_marginRight="16dp"
+        android:textSize="14sp"
+        android:textColor="@color/listSecondColor" />
+
+</RelativeLayout>

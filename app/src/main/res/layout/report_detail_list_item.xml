@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:orientation="horizontal" >
+
+    <!-- Title Of Category-->
+    <TextView
+        android:id="@+id/catName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:textColor="@color/listFirstColor"
+        android:textSize="16sp"/>
+
+    <!-- Comment -->
+    <TextView
+        android:id="@+id/pay_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/catName"
+        android:textColor="@color/listSecondColor"
+        android:textSize="14sp"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/thumbnail" />
+
+    <!-- Sum -->
+    <TextView
+        android:id="@+id/catSum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/catName"
+        android:gravity="right"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/listFirstColor"
+        android:textSize="16sp" />
+
+    <!-- Percentage of sum -->
+    <TextView
+        android:id="@+id/catPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:layout_marginRight="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/listSecondColor" />
+
+</RelativeLayout>

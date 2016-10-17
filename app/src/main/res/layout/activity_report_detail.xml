@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.talgat.simplepayment.ReportDetailActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <include
+            layout="@layout/tool_bar"
+            android:id="@+id/tool_bar" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout"
+            android:scrollbars="horizontal"
+            android:layout_below="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyCustomTabLayout"
+            android:background="?attr/colorPrimary" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

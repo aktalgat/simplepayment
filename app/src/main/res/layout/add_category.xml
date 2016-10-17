@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radioGroupCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioExpenseCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/exp_text" />
+
+        <RadioButton
+            android:id="@+id/radioIncomeCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inc_text" />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textCapWords"
+        android:id="@+id/editCatName"
+        android:hint="@string/category_hint"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

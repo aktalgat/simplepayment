@@ -1,0 +1,79 @@
+<resources>
+    <!-- Titles of activity-->
+    <string name="app_name">Simple Payment</string>
+    <string name="title_activity_main">Платежи</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="title_activity_category">Категории</string>
+    <string name="title_activity_add_category">Категория</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Настройки</string>
+    <string name="action_add">Добавить</string>
+
+    <!-- Tab titles -->
+    <string name="tab_report">ОТЧЕТ</string>
+    <string name="tab_log">ЖУРНАЛ</string>
+    <string name="tab_expense">РАСХОДЫ</string>
+    <string name="tab_income">ДОХОДЫ</string>
+
+
+    <string name="category">Категории</string>
+    <string name="category_desc">Список категорий</string>
+
+    <string name="password">Пароль</string>
+    <string name="password_desc">Установка пароля</string>
+    <string name="use_password">Использовать пароль</string>
+    <string name="set_password">Установить пароль</string>
+    <string name="set_but">Установить</string>
+
+
+    <string name="exp_text">Расходы</string>
+    <string name="inc_text">Доходы</string>
+    <string name="add_but">Сохранить</string>
+
+    <string-array name="edit_type">
+        <item>Редактировать</item>
+        <item>Удалить</item>
+    </string-array>
+
+    <string name="delete_mess">Удалить</string>
+    <string name="delete_but_title">Удалить</string>
+    <string name="delete_cancel">Отмена</string>
+
+    <string name="none"></string>
+
+    <string name="category_hint">Категория</string>
+    <string name="summ_hint">Сумма</string>
+    <string name="comment_hint">Комментарий</string>
+
+    <string name="summ_wrong">Добавьте сумму</string>
+    <string name="title_activity_add_payment">Добавить</string>
+    <string name="ok_but_title">OK</string>
+    <string name="action_clear_log">Очистить журнал</string>
+    <string name="clear_log_mess">Очистить журнал</string>
+    <string name="clear_but_title">Очистить</string>
+    <string name="action_clear_cat">Удалить все</string>
+    <string name="clear_cat_mess">Удалить все категории</string>
+    <string name="clear_cat_but_title">Удалить</string>
+    <string name="balance">Баланс</string>
+    <string name="debt">Долг</string>
+    <string name="today">День</string>
+    <string name="week">Неделя</string>
+    <string name="month">Месяц</string>
+    <string name="year">Год</string>
+    <string name="new_category">[Новая категория &#8230;]</string>
+
+    <string name="enter_but">Войти</string>
+    <string name="wrong_password">Неверный пароль</string>
+    <string name="title_activity_report_detail">Детали</string>
+    <string name="sum_of_all">Всего:</string>
+
+    <!-- No usage -->
+    <string-array name="payment_type">
+        <item>Расходы</item>
+        <item>Доходы</item>
+    </string-array>
+    <string name="add_payment_title">Платеж</string>
+    <string name="cat_name_wrong">Название не может быть пустым</string>
+    <string name="title_activity_password">Ввод пароля</string>
+</resources>

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.talgat.simplepayment.SettingsActivity">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/Divider"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal" >
+
+        <TextView android:id="@+id/text1"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:textColor="@color/listFirstColor"
+            android:text="@string/use_password"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/usePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/text1"/>
+    </RelativeLayout>
+
+    <View style="@style/Divider"/>
+
+    <ListView
+        android:id="@+id/list2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
