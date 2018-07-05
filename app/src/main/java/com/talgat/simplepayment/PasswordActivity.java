@@ -3,16 +3,11 @@ package com.talgat.simplepayment;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
-
 
 public class PasswordActivity extends AppCompatActivity {
 
@@ -34,7 +29,7 @@ public class PasswordActivity extends AppCompatActivity {
             finish();
         }
 
-        editText = (EditText) findViewById(R.id.editText2);
+        editText = findViewById(R.id.editText2);
     }
 
     public void enterClick(View view) {
