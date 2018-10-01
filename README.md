@@ -1,5 +1,6 @@
 # SimplePayment Android app
-Source of Android app SimplePayment published in the Google Play. You can find it at [Google Play](https://play.google.com/store/apps/details?id=com.talgat.simplepayment)
+SimplePayment lets store expenses and incomes. It helps improve daily expenses. You can check with 
+daily reports.
    
 ![Screenshot from running application](etc/screenshot.jpg?raw=true "Screenshot SimplePayment application")
 
